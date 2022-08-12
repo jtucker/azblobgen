@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="azure.identity" Version="1.6.1" />
+    <PackageReference Include="azure.storage.blobs" Version="12.13.0" />
+    <PackageReference Include="csharpfunctionalextensions" Version="2.31.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Spectre.Console" Version="0.44.0" />
+  </ItemGroup>
+
+</Project>

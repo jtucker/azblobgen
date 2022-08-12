@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "azblobgen": {
+      "commandName": "Project",
+      "commandLineArgs": "blob --blob-url https://storageaccountcodinb839.blob.core.windows.net/ --blob-container-name test-area"
+    }
+  }
+}
